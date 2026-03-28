@@ -923,7 +923,7 @@ server.port=8443
 
 ```
 ┌──────────┐      HTTP POST      ┌────────────┐
-│  React   │ ──────────────────▶ │   Task     │
+│  React   │ ──────────────────▶    Task     
 │  Form    │    /api/tasks/task  │ Controller │
 └──────────┘                     └──────┬─────┘
                                         │
@@ -1872,7 +1872,7 @@ Endpoints de monitoramento:
 
 **Gostou do projeto? Entre em contato!**
 
-[💼 LinkedIn](https://www.linkedin.com/in/jumoreiram/) | [🐦 Twitter](#) | [📧 Email](mailto:jumoreiram@gmail.com)
+[💼 LinkedIn](https://www.linkedin.com/in/jumoreiram/) | [📧 Email](mailto:jumoreiram@gmail.com)
 
 ---
 
