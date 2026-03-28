@@ -81,7 +81,7 @@ Este sistema permite que equipes e indivíduos gerenciem suas tarefas de forma e
 │              │                     │                         │
 │  ┌───────────┼─────────────────────┼────────────────────┐    │
 │  │           │  Services Layer     │                    │    │
-│  │  ┌────────▼────────┐  ┌────────▼────────┐            │    │
+│  │  ┌────────▼────────┐  ┌─────────▼───────┐            │    │
 │  │  │  TaskService    │  │  UserService    │            │    │
 │  │  │  Implementation │  │  Implementation │            │    │
 │  │  └────────┬────────┘  └────────┬────────┘            │    │
@@ -89,7 +89,7 @@ Este sistema permite que equipes e indivíduos gerenciem suas tarefas de forma e
 │              │                     │                         │
 │  ┌───────────┼─────────────────────┼────────────────────┐    │
 │  │           │  Repositories (JPA) │                    │    │
-│  │  ┌────────▼────────┐  ┌────────▼────────┐            │    │
+│  │  ┌────────▼────────┐  ┌─────────▼───────┐            │    │
 │  │  │ TaskRepository  │  │ UserRepository  │            │    │
 │  │  │  (JpaRepository)   (JpaRepository)   │            │    │
 │  │  └────────┬────────┘  └────────┬────────┘            │    │
@@ -97,7 +97,7 @@ Este sistema permite que equipes e indivíduos gerenciem suas tarefas de forma e
 │              │                     │                         │
 │  ┌───────────┼─────────────────────┼────────────────────┐    │
 │  │           │    Entities (JPA)   │                    │    │
-│  │  ┌────────▼────────┐  ┌────────▼────────┐            │    │
+│  │  ┌────────▼────────┐  ┌─────────▼───────┐            │    │
 │  │  │      Task       │  │      User       │            │    │
 │  │  │    (@Entity)    │  │    (@Entity)    │            │    │
 │  │  └─────────────────┘  └─────────────────┘            │    │
