@@ -75,7 +75,7 @@ Este sistema permite que equipes e indivíduos gerenciem suas tarefas de forma e
 │  │              Controllers Layer                       │    │
 │  │  ┌──────────────────┐  ┌──────────────────┐          │    │
 │  │  │ TaskController   │  │  UserController  │          │    │
-│  │  │   (@RestController)  (@RestController) │          │    │
+│  │  │ (@RestController)    (@RestController) │          │    │
 │  │  └────────┬─────────┘  └────────┬─────────┘          │    │
 │  └───────────┼─────────────────────┼────────────────────┘    │
 │              │                     │                         │
